@@ -51,6 +51,7 @@ from customer
 )
 select customer_segment, count(*) as "Number of Customers"
 from customer_type
+group by customer_segment
 
 --Top 3 most purchased products within each category
 
